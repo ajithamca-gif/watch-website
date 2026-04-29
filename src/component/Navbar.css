@@ -1,0 +1,32 @@
+/* Navbar.css */
+.ajs-navbar { background: #080707; color: #e8ddd0; }
+
+.top-bar { border-bottom: 1px solid rgba(232,221,208,0.12); }
+.top-link { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.7; cursor: pointer; display: flex; align-items: center; gap: 5px; }
+.top-link:hover { opacity: 1; }
+.top-icon { opacity: 0.75; cursor: pointer; font-size: 14px; }
+.top-icon:hover { opacity: 1; }
+
+.logo-bar { border-bottom: 1px solid rgba(232,221,208,0.12); }
+.brand-name { font-family: 'Playfair Display', serif; font-size: 28px; letter-spacing: 8px; font-weight: 400; color: #e8ddd0; margin: 0; }
+
+.bottom-nav { background: transparent; border-top: none; }
+.bottom-nav .navbar-toggler { color: #e8ddd0; }
+.bottom-nav .navbar-toggler-icon { filter: invert(1); }
+
+.nav-item-link { font-size: 15px; letter-spacing: 1.8px; text-transform: uppercase; color: rgba(232,221,208,0.65) !important; padding: 14px 12px !important; border-bottom: 2px solid transparent; transition: all 0.2s; }
+.nav-item-link:hover { color: #e8ddd0 !important; border-bottom-color: #c9a97a; }
+
+.search-form { position: relative; align-items: center; }
+.search-icon { position: absolute; left: 10px; color: rgba(232,221,208,0.4); font-size: 13px; }
+.search-input { background: rgba(232,221,208,0.08) !important; border: 1px solid rgba(232,221,208,0.2) !important; border-radius: 2px !important; color: #e8ddd0 !important; font-size: 15px; letter-spacing: 1px; padding-left: 30px !important; min-width: 220px; }
+.search-input::placeholder { color: rgba(232,221,208,0.35) !important; }
+.search-input:focus { box-shadow: none !important; border-color: rgba(232,221,208,0.4) !important; }
+
+@media (max-width: 991px) {
+    
+  .brand-name { font-size: 22px; letter-spacing: 5px; }
+  .nav-item-link { border-bottom: 1px solid rgba(232,221,208,0.08); padding: 14px 0 !important; }
+  .nav-item-link:hover { border-bottom-color: rgba(232,221,208,0.08); }
+  .search-input { min-width: unset; width: 100%; }
+}

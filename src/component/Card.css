@@ -1,0 +1,47 @@
+/* Card.css */
+.banner-section {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 20px; /* இதை add பண்ணுங்க */
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.breadcrumb-text {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.banner-title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .banner-section {
+    height: 160px;
+  }
+  .banner-title {
+    font-size: 22px;
+  }
+}

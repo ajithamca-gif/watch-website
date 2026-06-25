@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import bannerImg from "../assets/banner-card.jpg";
+import bannerImg from "../assets/banner-img.jpg";
 import "./Card.css";
 
 function Card() {
